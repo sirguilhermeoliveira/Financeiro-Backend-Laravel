@@ -1,6 +1,10 @@
-# dadus-financeiro-backend
+# Financeiro-Backend-Laravel
 
-> Backend do Financeiro
+![Alt Text](https://media.giphy.com/media/gCMUur2MxuRHc7J7lI/giphy.gif)
+
+![](name-of-giphy.gif)
+
+> Backend do Financeiro com Controllers,Models, Migrations e JWT implementados.
 
 ## Intalação
 
