@@ -1,2 +1,11 @@
-# Financeiro-Backend-Laravel
-Backend do Financeiro em Laravel com JWT, Controllers, Models e  Migrations prontas.
+# dadus-financeiro-backend
+
+> Backend do Financeiro
+
+## Intalação
+
+``` bash
+# Instala as dependências e abre o servidor
+composer install
+npm install
+php artisan serve
