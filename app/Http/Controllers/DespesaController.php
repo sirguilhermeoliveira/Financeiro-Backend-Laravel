@@ -36,9 +36,19 @@ class DespesaController extends Controller
       return response()->json($despesa);
     }
 
-    public function update(Request $request, $id) {
+    public function update(Request $request, Despesa $despesa)
+    {
+        $despesa->des = $request->des;
+        $despesa->valr = $request->valr;
+        $despesa->vencc = $request->vencc;
+        $despesa->emiss = $request->emiss;
+        $despesa->stt = $request->stt;
+        $despesa->save();
+        return response()->json('Chegou no update');
+    }
+
+/*     public function update(Request $request, $id) {
       if ($id == 0) {
-          $despesa = new Despesa;
           $despesa->create($request->all());
       }
       else {
@@ -48,7 +58,7 @@ class DespesaController extends Controller
 
 
       return response()->json('Chegou no update');
-  }
+  } */
 
     public function destroy($id)
     {
