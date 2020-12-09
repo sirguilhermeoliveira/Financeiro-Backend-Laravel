@@ -4,7 +4,7 @@
 
 ![](name-of-giphy.gif)
 
-> Backend do Financeiro com Controllers,Models, Migrations e JWT implementados.
+> Backend do Financeiro com Autenticação JWT, Controllers, Models, Migrations completos com todas funcionalidades.
 
 ## Intalação
 
